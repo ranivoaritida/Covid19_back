@@ -29,7 +29,7 @@
 				$this->db->query($sql);
 		  }
 		  function get_info($id) {
-			  $request="Select * from Subject where idSubject=%d";
+			  $request="Select * from subject where idSubject=%d";
 			  $request=sprintf($request,$id);
 			  $query= $this->db->query($request);
 			  $result= $query->row_array();
