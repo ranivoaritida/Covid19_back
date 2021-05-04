@@ -53,7 +53,7 @@
       </div>
 
       <div class="pied-formulaire" align="center">
-        <button>modifier le message</button>
+        <button>modifier l'information</button>
       </div>
     </form>
       </div> 
